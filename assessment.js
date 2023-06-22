@@ -21,15 +21,6 @@ assessmentButton.onclick = () => {
   // 診断結果表示エリアの作成
   resultDivision.innerText = '';
 
-  // const header = document.createElement('h3');
-  // header.innerText = '診断結果';
-  // resultDivision.appendChild(header);
-
-  // const paragraph = document.createElement('p');
-  // const result = assessment(userName);
-  // paragraph.innerText = result;
-  // resultDivision.appendChild(paragraph);
-
   // headerDivision の作成
   const headerDivision = document.createElement('div');
   headerDivision.setAttribute('class', 'card-header');
